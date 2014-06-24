@@ -1,0 +1,11 @@
+bin/RTSPPlayer.apk
+bin/classes.dex
+bin/jarlist.cache
+bin/res/crunch/drawable-hdpi/ic_launcher.png
+bin/res/crunch/drawable-mdpi/ic_launcher.png
+bin/res/crunch/drawable-xhdpi/ic_launcher.png
+bin/res/crunch/drawable-xxhdpi/ic_launcher.png
+bin/resources.ap_
+gen/android/support/v7/appcompat/R.java
+gen/com/example/rtspplayer/BuildConfig.java
+gen/com/example/rtspplayer/R.java
