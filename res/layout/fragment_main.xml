@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtspplayer.MainActivity$PlaceholderFragment" >
+
+    <VideoView
+        android:id="@+id/rtsp_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="94dp" />
+
+    <Button
+        android:id="@+id/rtsp_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rtsp_player"
+        android:text="RTSP Player" />
+
+    <Button
+        android:id="@+id/mp4_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rtsp_play"
+        android:layout_alignBottom="@+id/rtsp_play"
+        android:text="MP4 Player" />
+
+    <TextView
+        android:id="@+id/jnitext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mp4_play"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/rtsp_play"
+        android:text="TextView" />
+
+</RelativeLayout>
